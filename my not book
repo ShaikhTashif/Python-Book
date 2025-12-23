@@ -155,7 +155,7 @@ print(df[df['Age'] > 28])
 # Add a new column
 df['Senior'] = df['Age'] > 30
 print("\nWith 'Senior' column:")
-print(df).
+print(df)
 
 
 
