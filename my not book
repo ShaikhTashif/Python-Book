@@ -156,6 +156,8 @@ print(df[df['Age'] > 28])
 df['Senior'] = df['Age'] > 30
 print("\nWith 'Senior' column:")
 print(df)
+> Data Preprocessing
+
 
 
 
