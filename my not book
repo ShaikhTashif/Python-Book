@@ -156,8 +156,15 @@ print(df[df['Age'] > 28])
 df['Senior'] = df['Age'] > 30
 print("\nWith 'Senior' column:")
 print(df)
-> Data Preprocessing
 
+> AI: Artificial intellegence.
+ML: learning 
+Their are tow type of machine learning.
+LLM & Deeoplearning (clustring,CNN,RNN)
+
+I'm studies for a Outlier works for AIML in all combine data to process create a best image for this method 
+all basic component to create one high image.
+combine for multiple images in structure format and explroing the work on this data 
 
 
 
