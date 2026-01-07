@@ -177,7 +177,7 @@ LLM & Deeoplearning (clustring,CNN,RNN)
 -> Cohere: Command R.
 -> DeepSeek: DeepSeek R1, V3.
 
-Pandas IT's work a adding,updating,
+    PANDAS-> Pandas IT's work a adding,updating,Removing
 #updating coloumns 
 import pandas as pd 
 data  = {
@@ -216,7 +216,20 @@ print(df)
 df.insert(0,"Employee_ID",[1,2,3,4])
 print(df)
 
+# Removing coloumns 
+import pandas as pd 
+data  = {
+    "Name":['Tashif','Noor','Adil','Aman'],
+    "Age" : ['20','21','22','25'],
+    "City" : ['india','pakistan','afirica','Nizambad'],
+    "Salary":['1000000','20000','50000','50000']
+}
+df =pd.DataFrame(data)
+print(df)
 
+# df.drop(columns = ["Coloumns"],inplace=True)
+df.drop(columns = ['Salary','Name','Age'], inplace=True)
+print(df)
 
 
 
