@@ -177,8 +177,44 @@ LLM & Deeoplearning (clustring,CNN,RNN)
 -> Cohere: Command R.
 -> DeepSeek: DeepSeek R1, V3.
 
+Pandas IT's work a adding,updating,
+#updating coloumns 
+import pandas as pd 
+data  = {
+    "Name":['Tashif','Noor','Adil','Aman'],
+    "Age" : ['20','21','22','25'],
+    "City" : ['india','pakistan','afirica','Nizambad'],
+    "salary":['1000000','20000','50000','50000']
+}
+df =pd.DataFrame(data)
+print(df)
 
+# updating loc
+df.loc[0,'salary'] = 15000
+df.loc[1,'salary'] = 20000
+df.loc[2,'salary'] = 50000
+df.loc[3,'salary'] = 30000
+print(df)
 
+#Adding a coloumns 
+import pandas as pd 
+data  = {
+    "Name":['Tashif','Noor','Adil','Aman'],
+    "Age" : ['20','21','22','25'],
+    "City" : ['india','pakistan','afirica','Nizambad'],
+    "slaray":['1000000','20000','50000','50000']
+}
+df =pd.DataFrame(data)
+print(df)
+
+# square brackets 
+df["Bouns"] = df['salary'] = 0.1
+print(df)
+
+# using insert{}
+# df.insert(loc, "coloumn_Name", some_data)
+df.insert(0,"Employee_ID",[1,2,3,4])
+print(df)
 
 
 
