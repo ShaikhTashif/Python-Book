@@ -162,9 +162,20 @@ ML: learning
 Their are tow type of machine learning.
 LLM & Deeoplearning (clustring,CNN,RNN)
 
-I'm studies for a Outlier works for AIML in all combine data to process create a best image for this method 
-all basic component to create one high image.
-combine for multiple images in structure format and explroing the work on this data.
+# All LLM models.
+-> OpenAI: GPT-4o, GPT-4.5, GPT-5 (multimodal, reasoning).
+-> Google: Gemini (Pro, Flash, 1.5), Gemma (open models).
+-> Meta: Llama 3, Llama 4 Scout (open-source, powerful).
+-> Anthropic: Claude 3.5 (Sonnet, Opus, Haiku).
+-> Mistral AI: Mistral Large, Mixtral (Mixtral 8x22B), Magistral (open access).
+-> xAI: Grok (Grok-1.5).
+-> Microsoft: Phi-3, Phi-4 (small, powerful, open).
+-> Technology Innovation Institute (TII): Falcon (Falcon 2, 3).
+-> Alibaba Cloud: Qwen.
+-> Moonshot AI: Kimi K2.
+-> Z.ai: GLM-4.5.
+-> Cohere: Command R.
+-> DeepSeek: DeepSeek R1, V3.
 
 
 
