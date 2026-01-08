@@ -231,7 +231,19 @@ print(df)
 df.drop(columns = ['Salary','Name','Age'], inplace=True)
 print(df)
 
+# Drop for missing values
+ import pandas as pd 
+# data  = {
+#     "Name":['Tashif',None,'Adil','Aman'],
+#     "Age" : ['20',None,'22','25'],
+#     "City" : ['india',None,'afirica','Nizambad'],
+#     "Salary":['1000000',None,'50000','50000']
+# }
+# df =pd.DataFrame(data)
+# print(df)
 
+# df.dropna(inplace= True)
+# print(df)
 
 
 
