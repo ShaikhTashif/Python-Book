@@ -245,7 +245,7 @@ print(df)
 # df.dropna(inplace= True)
 # print(df)
 
--> This are working for a Systematic data to show 
+-> Linear interpolation 
 import pandas as pd
 
 data = {
