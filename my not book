@@ -261,8 +261,26 @@ df['Value'] = df['Value'].interpolate(method="linear")
 print("After interpolation")
 print(df)
 
+# This are merge for Join Column
+-># pd.merge(df1, df2, on="Column_Name", how="type of jion")
+import pandas as pd
 
+# cutomer Data
+df_Customers = pd.DataFrame({
+    'CustomerID':[1,2,3,4,5],
+    'Name':['Alice','Bob','Charlie','David','Eve'],
+})
 
+#order dataframe
+df_orders = pd.DataFrame({
+    'CustomerID':[1,2,3,4],
+    'OrderID':[4040,5050,600],
+})
+
+#merge
+df_merged = pd.merge(df_Customers, df_orders, on="CustomerID", how="inner")
+print('inner join ')
+print(df_merged)
 
 
 
