@@ -294,6 +294,19 @@ df.head(50)        # shows first 50 rows
 df.tail()          # shows last 5 rows
 df.sample(10)  
 
+        -> This is work for a Save data in a file
+import pandas as pd
+
+data = {
+    "Name": ['Arun', 'Varun','kashif','sachin'],
+    "Age":[10,20,30,40],
+    "City":['Nagpur','pune','mumbai','Delhi'],
+}
+
+df = pd.DataFrame(data)
+print(df)
+
+df.to_subset.csv('output.subset.csv', index=False)
 
 
 
