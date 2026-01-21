@@ -283,7 +283,16 @@ df_merged = pd.merge(df_Customers, df_orders, on="CustomerID", how="inner")
 print('inner join ')
 print(df_merged)
                        
+This are read for Data in Josn file
+import pandas as pd
 
+df = pd.read_json('sample_Data.json', encoding="latin1")
+
+print(df)          # prints the whole DataFrame (truncated if large)
+df.head()          # shows first 5 rows
+df.head(50)        # shows first 50 rows
+df.tail()          # shows last 5 rows
+df.sample(10)  
 
 
 
