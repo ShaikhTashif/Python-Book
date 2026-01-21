@@ -282,7 +282,7 @@ df_orders = pd.DataFrame({
 df_merged = pd.merge(df_Customers, df_orders, on="CustomerID", how="inner")
 print('inner join ')
 print(df_merged)
-
+                       
 
 
 
