@@ -313,13 +313,19 @@ NumPy was developed in Travis Oliphant
 This are work for a NumPy Image processing, Artifcial intellegence, Data analysis
 etc. 
 Basic program for NumPy
-
 import numpy as pd
 
 arr = np.array([1,2,3,4,5])
 print(arr)
 
+import numpy as np
 
+arr = np.array([10,20,30,40,50])
+
+print(np.sum(arr))
+print(np.std(arr))
+print(np.mean(arr))
+print(np.var(arr))
 
 
 
