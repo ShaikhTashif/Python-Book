@@ -318,6 +318,8 @@ import numpy as pd
 arr = np.array([1,2,3,4,5])
 print(arr)
 
+
+[variance, Standarad deviation, mean, median]
 import numpy as np
 
 arr = np.array([10,20,30,40,50])
@@ -326,7 +328,6 @@ print(np.sum(arr))
 print(np.std(arr))
 print(np.mean(arr))
 print(np.var(arr))
-
 
 
 
