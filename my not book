@@ -329,7 +329,7 @@ print(np.std(arr))
 print(np.mean(arr))
 print(np.var(arr))
 
-
+lindexing and slicing 
 
 
 
