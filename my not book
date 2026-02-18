@@ -368,9 +368,23 @@ print(reshaped_Arr)
 
 this are I'm working a somekinds of operations in Numpy 
 
+Append and concatinate for array
 
+import numpy as np
 
+arr = np.array([10,20,30,40])
+new_arr = np.append(arr, [50,60])
 
+print(new_arr)
+
+--> concatinate
+import numpy as np 
+
+arr = np.array([1,2,3])
+arr = np.array([4,5,6])
+
+new_arr = np.concatinate((arr1, arr2))
+print(new_arr)
 
 
 
