@@ -404,8 +404,35 @@ print(np.split(arr, 1)
 
 # I'm Started with a Matplotlib for AIML Journey 
 
+import matplotlib.pyplot as plt
 
+x = [1,2,3,4,5,6,7,8,9,101]
+y = [10,20,30,40,30,50,-40,50,60,-70]
 
+plt.plot (x,y)
+
+plt.show()
+
+? Basic project's for a all Funtions used in matplotlib 
+
+import matplotlib.pyplot as plt 
+
+months = [1,2,3,4]
+sales = [1000, 1500, 1200, 1800]
+
+plt.title("Monthly slaes Data report")
+
+plt.xlabel("Months")
+
+plt.ylabel("Sales per month")
+
+plt.plot(months, sales, color='blue', linestyle= '--', linewidth= 2, marker= 'o', label= '2025 sales data')
+plt.legend(loc = 'upper left', fontsize=12)
+plt.grid(color = 'grey' ,linestyle = ":", linewidth = 1 )
+plt.xlim(1, 4)
+plt.ylim(0, 2000)
+plt.xticks([1,2,3,4], ['M1','M2', 'M3', 'M4'])
+plt.show()
 
 
 
