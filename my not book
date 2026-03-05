@@ -434,6 +434,24 @@ plt.ylim(0, 2000)
 plt.xticks([1,2,3,4], ['M1','M2', 'M3', 'M4'])
 plt.show()
 
+work for the Bar chart
+#plt.bar[x, height, color = 'color name', width = value, label= 'label name')
+import matplotlib.pyplot as plt 
+
+product = ['A', 'B', 'C', 'D']
+sales = [10000, 10000, 8000, 12004]
+
+plt.bar(product, sales, color= 'black', label= 'Sales 2026')
+plt.xlabel('Product')
+plt.ylabel('Sales')
+plt.title('Product Sale Comparison')
+plt.legend()
+plt.show()
+
+
+
+
+I'm the best in my life 
 
 
 
