@@ -448,8 +448,17 @@ plt.title('Product Sale Comparison')
 plt.legend()
 plt.show()
 
+import matplotlib.pyplot as plt 
 
+plt.scatter ([1,2,3], [50,60,70], color = 'green', class = 'A class' )
+plt.scatter ([1,2,3], [50,60,70], color = 'blue', class = 'B class' )
 
+plt.xlabel('Exam scores')
+plt.ylabel('Scoring of the Exam')
+plt.legend()
+plt.scatter()
+plt.gird(True)
+plt.show()
 
 I'm the best in my life 
 
