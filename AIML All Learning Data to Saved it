@@ -448,7 +448,7 @@ plt.title('Product Sale Comparison')
 plt.legend()
 plt.show()
 
---> Creating for a Scatter plot of the the Github File
+--> Creating a Scatter plot of the the Github File
 
 import matplotlib.pyplot as plt 
 
@@ -459,7 +459,7 @@ plt.xlabel('Exam scores')
 plt.ylabel('Scoring of the Exam')
 plt.title('Student Scatter plot')
 plt.legend()
-plt.gird(True)
+plt.grid(True)
 plt.show()
 
 
