@@ -482,9 +482,19 @@ Today's I'm Creating a Basic Program for a Seaborn
 How to Visualized and predict the Foundation of Learning. 
 --> Seaborn is a one type of library in Python this is used for a Data to visualize and 
 work for a best operation's to perform in daily basis in attrative form this is used 
+This are work for easily in Pandas and attrative form to show the data 
 
+--> I'm Creating a basic Program for a Seaborn and Matplotlib 
+import seaborn as sns 
+import matplotlib.pyplot as plt 
 
-
+plt.figure(figsize=(8,6))
+sns.scatterplot(x="total_bill", y="tip", data=df, hue="sex", style="smoker")
+plt.title("Total Bill vs. Tip")
+plt.xlabel("Total Bill ($)")
+plt.ylabel("Tip ($)")
+plt.grid(True, linestyle='--', alpha=0.6)
+plt.show()
 
 
 
