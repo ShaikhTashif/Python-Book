@@ -495,7 +495,8 @@ plt.ylabel("Tip ($)")
 plt.grid(True, linestyle='--', alpha=0.6)
 plt.show()
 
-Stop todays##
+print("GitHub is very easy to used and working as a Data Analyst");
+
 
 
 
